@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Thomas Radloff",
+    "email": "bostontrader@gmail.com",
+    "url": "https://github.com/bostontrader"
+  },
+  "bugs": {
+    "url": "https://github.com/bostontrader/polo-catbox-compare2real/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "description": "The purpose of this project is to provide a realistic test for the polo-catbox and polonlyze projects by putting them to work simultaneously using data from a live Polo account.",
+  "homepage": "https://github.com/bostontrader/polo-catbox-compare2real#readme",
+  "keywords": [
+    "bookkeeping",
+    "bitcoin",
+    "catbox",
+    "cryptocoin",
+    "de-dollarization",
+    "ethereum",
+    "litecoin",
+    "polo-catbox",
+    "poloniex",
+    "polonlyze",
+    "sandbox"
+  ],
+  "license": "MIT",
+  "name": "polo-catbox-compare2real",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bostontrader/polo-catbox-compare2real.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "0.0.1"
+}

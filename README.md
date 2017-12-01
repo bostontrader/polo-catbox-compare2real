@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/bostontrader/polo-catbox-compare2real.svg?branch=master)](https://travis-ci.org/bostontrader/polo-catbox-compare2real)
-[![Coverage Status](https://coveralls.io/repos/github/bostontrader/polo-catbox-compare2real/badge.svg?branch=master)](https://coveralls.io/github/bostontrader/polo-catbox-compare2real?branch=master)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![Dependency Status](https://david-dm.org/bostontrader/polo-catbox-compare2real.svg)](https://david-dm.org/bostontrader/polo-catbox-compare2real)
 [![devDependency Status](https://david-dm.org/bostontrader/polo-catbox-compare2real/dev-status.svg)](https://david-dm.org/bostontrader/polo-catbox-compare2real#info=devDependencies)
@@ -21,8 +20,9 @@ $ git clone http://github.com/bostontrader/polo-catbox-compare2real
 $ cd polo-catbox-compare2real
 $ npm install
 $ npm test
-$ npm start
 ```
+
+Notice there is no "npm start".  We only run the test.
 
 
 # Tipjar
