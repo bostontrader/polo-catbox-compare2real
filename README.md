@@ -36,12 +36,30 @@ The following elements of configuration are available:
 
 * polo-keyfile - This is the location of a file that contains your real Polo API key and secret.  Although the example is within this project, I suggest you put it somewhere else lest this sensitive info inadvertently find its way into some public SCM.
 
-By default the "default" config will be used.  You can create another config such as "production" if you like and use it instead of default by setting the environment variable NODE_ENV=production.
+* start - The starting time for history retrieval.
+
+* end - The ending time.
+
+* forReal - Put this key in any configuration that ought to really run.  Travis CI doesn't have much to do and I'm not letting him have any real API keys.  But I still want this project integrated into Travis.
+
+By default the "default" config will be used.  You can create another config such as "production" if you like and use it instead of default by setting the environment variable NODE_ENV=production.  If you do this, then all settings are set by the default config but you may override them using the production config.
+
+
+# On Nonces
+
+Each call to the private trading API includes a "nonce."  The nonce is an integer that must be higher than the previous highest nonce.  A common way to get a good nonce is to simply use the Date.now() function.  Recall that that function will return an integer number of ms since the dawn of Unix time, so there's room for confusion.
+
+This project uses Date.now() for its nonce.  If this conflicts with your present system, please adapt.  Also realize that you can have muliple API key/secret pairs.  One for this project and one for your other work.
 
 # Dependencies
 
 * config - A method of feeding runtime configuration to the executable.
 
+* crypto - We need this to sign our API requests.  This seems to be deprecated in favor a module that's built into Node.
+
+* request - This project needs to make HTTP requests.
+
+* request-promise-native - The HTTP requests must return native ES6 promises.
 
 # Tipjar
 BTC: 1NyKNEAiF5VfSivXi9C9sXbsThpYjz1RUE

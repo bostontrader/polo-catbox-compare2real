@@ -1,4 +1,4 @@
 {
   "apiKey": "my polo api key",
-  "privateKey": "my polo api secret"
+  "secret": "my polo api secret"
 }

@@ -8,7 +8,10 @@
     "url": "https://github.com/bostontrader/polo-catbox-compare2real/issues"
   },
   "dependencies": {
-    "config": "^1.28.1"
+    "config": "^1.28.1",
+    "crypto": "^1.0.1",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
   },
   "devDependencies": {},
   "description": "The purpose of this project is to provide a realistic test for the polo-catbox and polonlyze projects by putting them to work simultaneously using data from a live Polo account.",

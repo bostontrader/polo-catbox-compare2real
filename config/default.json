@@ -10,5 +10,8 @@
     "host": "poloniex.com"
   },
 
-  "polo-keyfile": "./polo-keyfile.json"
+  "polo-keyfile": "./polo-keyfile.json",
+
+  "start": "2017-08-01T00:00:00Z",
+  "end": "2017-12-01T00:00:00Z"
 }
