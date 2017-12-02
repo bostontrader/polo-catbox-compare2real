@@ -1,0 +1,14 @@
+{
+  "url-polo-catbox": {
+    "protocol": "http",
+    "host": "localhost",
+    "port": 3003
+  },
+
+  "url-poloniex": {
+    "protocol": "https",
+    "host": "poloniex.com"
+  },
+
+  "polo-keyfile": "./polo-keyfile.json"
+}
